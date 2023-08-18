@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, rgb(95, 158, 160, 1.0), rgb(95, 158, 160, 0.9), rgb(95, 158, 160, 0.8), rgb(95, 158, 160, 0.7), rgb(95, 158, 160, 0.6), rgb(95, 158, 160, 0.5), rgb(95, 158, 160, 0.4), rgb(95, 158, 160, 0.3), rgb(95, 158, 160, 0.2), rgb(95, 158, 160, 0.1));
+    height: 100vh;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255, 0.3);
+    box-shadow: 0.5rem 0.5rem 2rem 0.1rem rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.heading{   
+    opacity: 100%;
+    position: relative;
+    margin: 1rem;
+    font-size: 2rem;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.quote-wrapper{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.author-wrapper{
+    font-style: italic;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+.get-quote-btn{
+    cursor: pointer;
+    padding: 0.25rem 5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border-color:rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.3);
+    text-transform: uppercase;
+}
+
+.get-quote-btn:hover{
+    color: rgb(95, 158, 160);
+    background-color: rgb(255, 255, 255, 0.6);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3);
+    transition: all 300ms ease-in-out;
+}
